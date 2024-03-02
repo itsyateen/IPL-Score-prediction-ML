@@ -1,0 +1,34 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('pic1.jpg'); /* Set your correct image path */
+    background-size: cover; /* Resize image to cover the entire background */
+    background-position: center; /* Center the image horizontally and vertically */
+    background-repeat: no-repeat; /* Prevent the image from repeating */
+    background-color: rgba(0, 0, 0, 0.3); /* Add a semi-transparent overlay for a lighter shade */
+  }
+  
+  .heading {
+    color: white;
+    font-size: 54px;
+    text-align: center;
+    margin: 0;
+    padding: 20px; /* Optional padding around the heading */
+  }
+
+  .background-image {
+    width: 100%;
+    height: auto; /* Maintain aspect ratio */
+    z-index: -1; /* Ensure the image is behind other content */
+}
+  
+  .form-container {
+    display: flex;
+    flex-direction: column; /* Stack form elements vertically */
+    justify-content: center;
+    align-items: center;
+    width: 400px; /* Specify a width for the form */
+    margin: 0 auto; /* Center the form horizontally */
+    padding: 20px; /* Add padding for better spacing */
+    border-radius: 5px; /* Add rounded corners for a visual effect */
+    background-color: rgba(255, 255, 255, 0.8); /*
+  }
